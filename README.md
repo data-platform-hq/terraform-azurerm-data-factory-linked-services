@@ -23,20 +23,22 @@ No modules.
 
 ## Resources
 
-| Name                                                                                                                                                                                      | Type     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------- |
-| [azurerm_data_factory_linked_service_data_lake_storage_gen2.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/data_factory_linked_service_data_lake_storage_gen2)                                                                 | resource |
-| [azurerm_data_factory_linked_service_azure_databricks.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/data_factory_linked_service_azure_databricks) | resource |
+| Name                                                                                                                                                                                                  | Type     |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| -------- |
+| [azurerm_data_factory_linked_service_data_lake_storage_gen2.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/data_factory_linked_service_data_lake_storage_gen2) | resource |
+| [azurerm_data_factory_linked_service_azure_databricks.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/data_factory_linked_service_azure_databricks)             | resource |
+| [azurerm_data_factory_linked_service_azure_sql_database.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/data_factory_linked_service_azure_sql_database)         | resource |
 
 ## Inputs
 
-| Name                                                                                | Description                                           | Type          | Default | Required |
-|-------------------------------------------------------------------------------------|-------------------------------------------------------|---------------|---------|:--------:|
-| <a name="input_data_factory_id"></a> [data\_factory\_id](#input\_data\_factory\_id) | Data Factory Id                                       | `string`      | n/a     |   yes    |
-| <a name="input_env"></a> [env](#input\_env)                                         | Environment name                                      | `string`      | n/a     |   yes    |
-| <a name="input_default_ir_name"></a> [default\_ir\_name](#input\_default\_ir\_name) | Name of Auto Resolve Integration Runtime              | `string`      | n/a     |   yes    |
-| <a name="input_adls"></a> [adls](#input\_adls)                                      | ADLS Gen 2 resources list to connect                  | `map(string)` | {}      |    no    |
-| <a name="input_databricks"></a> [databricks](#input\_databricks)                    | Databricks clusters list                              | `map(any)`    | {}      |    no    |
+| Name                                                                                | Description                                         | Type          | Default | Required |
+|-------------------------------------------------------------------------------------|-----------------------------------------------------|---------------|---------|:--------:|
+| <a name="input_data_factory_id"></a> [data\_factory\_id](#input\_data\_factory\_id) | Data Factory Id                                     | `string`      | n/a     |   yes    |
+| <a name="input_env"></a> [env](#input\_env)                                         | Environment name                                    | `string`      | n/a     |   yes    |
+| <a name="input_default_ir_name"></a> [default\_ir\_name](#input\_default\_ir\_name) | Name of Auto Resolve Integration Runtime            | `string`      | n/a     |   yes    |
+| <a name="input_adls"></a> [adls](#input\_adls)                                      | ADLS Gen 2 resources list to connect                | `map(string)` | {}      |    no    |
+| <a name="input_databricks"></a> [databricks](#input\_databricks)                    | Databricks clusters list                            | `map(any)`    | {}      |    no    |
+| <a name="input_mssql"></a> [mssql](#input\_mssql)                                   | Azure SQL connection name to connection string map  |`map(any)`     | {}      |    no    |
 
 ## Outputs
 

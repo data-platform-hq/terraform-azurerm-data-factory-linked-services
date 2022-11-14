@@ -24,3 +24,9 @@ variable "databricks" {
   description = "Databricks clusters list"
   default     = {}
 }
+
+variable "mssql" {
+  type        = map(any)
+  description = "Azure SQL connection name to connection string map"
+  default     = {}
+}
