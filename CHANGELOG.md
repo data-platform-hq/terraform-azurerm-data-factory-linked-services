@@ -1,3 +1,11 @@
+## [1.1.1](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.1.0...v1.1.1) (2022-11-14)
+
+
+### Bug Fixes
+
+* updated mssql service name ([5991cf4](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/commit/5991cf49f254461e9013719f035a41eaf3ea5bf7))
+* updated name ([de635e6](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/commit/de635e6c18247d7b9ddaa6c69a65383560fc761c))
+
 # [1.1.0](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.0.0...v1.1.0) (2022-11-14)
 
 
