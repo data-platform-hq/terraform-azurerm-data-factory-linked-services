@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.0.0...v1.1.0) (2022-11-14)
+
+
+### Features
+
+* added service ([4e4c43f](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/commit/4e4c43f06b33fc6fc7651f96972f12f52d0c42c0))
+
 # 1.0.0 (2022-11-04)
 
 
