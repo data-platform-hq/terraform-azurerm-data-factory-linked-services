@@ -30,7 +30,7 @@ resource "azurerm_data_factory_linked_service_azure_databricks" "this" {
 resource "azurerm_data_factory_linked_service_azure_sql_database" "this" {
   for_each = var.mssql
 
-  name                     = "mssql-${each.key}"
+  name                     = "mssql-${var.env}-${each.key}"
   connection_string        = each.value
   use_managed_identity     = true
   data_factory_id          = var.data_factory_id
