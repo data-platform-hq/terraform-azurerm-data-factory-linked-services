@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.1.1...v1.1.2) (2023-11-25)
+
+
+### Bug Fixes
+
+* added key vault linked services ([196bb16](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/commit/196bb16cfd3da066471c2810133dff249c02e5b4))
+
 ## [1.1.1](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.1.0...v1.1.1) (2022-11-14)
 
 
