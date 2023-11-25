@@ -30,3 +30,15 @@ variable "mssql" {
   description = "Azure SQL connection name to connection string map"
   default     = {}
 }
+
+variable "key_vault_linked_services" {
+  description = "List of objects with parameters to configure Key Vault Linked Services in Data Factory"
+  type = list(object({
+    name                                = string
+    key_vault_id                        = string
+    data_factory_object_id              = string
+    data_factory_tenant_id              = string
+    key_vault_policy_secret_permissions = optional(list(string), ["Get", "List"])
+  }))
+  default = []
+}
