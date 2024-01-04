@@ -17,3 +17,8 @@ output "key_vault" {
   value       = { for list in azurerm_data_factory_linked_service_key_vault.this : list.name => list }
   description = "Azure Key Vault Linked Service Name to parameters map"
 }
+
+output "app_function" {
+  value       = { for ls in azurerm_data_factory_linked_service_azure_function.this : ls.name => ls.id }
+  description = "Azure function Linked Service Name to Id map"
+}
