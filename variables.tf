@@ -42,3 +42,9 @@ variable "key_vault_linked_services" {
   }))
   default = []
 }
+
+variable "app_function" {
+  type        = map(any)
+  description = "App function list"
+  default     = {}
+}

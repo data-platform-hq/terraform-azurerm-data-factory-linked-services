@@ -57,3 +57,12 @@ resource "azurerm_data_factory_linked_service_azure_sql_database" "this" {
   data_factory_id          = var.data_factory_id
   integration_runtime_name = var.default_ir_name
 }
+
+resource "azurerm_data_factory_linked_service_azure_function" "this" {
+  for_each = var.app_function
+
+  name            = each.value["name"]
+  data_factory_id = var.data_factory_id
+  url             = "https://${each.value["default_hostname"]}"
+  key             = each.value["app_key"]
+}
