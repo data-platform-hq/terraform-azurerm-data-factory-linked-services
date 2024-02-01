@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.1.2...v1.2.0) (2024-02-01)
+
+
+### Features
+
+* refactored variables for linked services ([247ae81](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/commit/247ae818f9075cc927f268ae6f0f217a1e974e31))
+
 ## [1.1.2](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.1.1...v1.1.2) (2023-11-25)
 
 
