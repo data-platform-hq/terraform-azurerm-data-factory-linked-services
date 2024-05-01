@@ -1,3 +1,16 @@
+# [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.2.0...v1.3.0) (2024-05-01)
+
+
+### Bug Fixes
+
+* added security KICS scan action ([2367e44](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/commit/2367e44a456051a236dd1ac42e375775a2351e21))
+* replaced pre-commit repo docs creation/update by GH Actions ([14e9526](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/commit/14e9526926e4c223ff36b34598aef0232e574fa0))
+
+
+### Features
+
+* ignore changes on linked services ([5640d5c](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/commit/5640d5c394c460e4797f37e227c24b21c9fb25de))
+
 # [1.2.0](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.1.2...v1.2.0) (2024-02-01)
 
 
