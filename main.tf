@@ -32,6 +32,13 @@ resource "azurerm_data_factory_linked_service_data_lake_storage_gen2" "this" {
   use_managed_identity     = true
   data_factory_id          = var.data_factory_id
   integration_runtime_name = var.default_ir_name
+
+  lifecycle {
+    ignore_changes = [
+      parameters,
+      integration_runtime_name
+    ]
+  }
 }
 
 resource "azurerm_data_factory_linked_service_azure_databricks" "this" {
@@ -48,7 +55,8 @@ resource "azurerm_data_factory_linked_service_azure_databricks" "this" {
     ignore_changes = [
       additional_properties,
       annotations,
-      parameters
+      parameters,
+      integration_runtime_name
     ]
   }
 }
@@ -61,4 +69,11 @@ resource "azurerm_data_factory_linked_service_azure_sql_database" "this" {
   use_managed_identity     = true
   data_factory_id          = var.data_factory_id
   integration_runtime_name = var.default_ir_name
+
+  lifecycle {
+    ignore_changes = [
+      parameters,
+      integration_runtime_name
+    ]
+  }
 }
