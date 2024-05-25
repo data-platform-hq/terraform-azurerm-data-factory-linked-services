@@ -36,7 +36,8 @@ resource "azurerm_data_factory_linked_service_data_lake_storage_gen2" "this" {
   lifecycle {
     ignore_changes = [
       parameters,
-      integration_runtime_name
+      integration_runtime_name,
+      url
     ]
   }
 }
@@ -56,7 +57,9 @@ resource "azurerm_data_factory_linked_service_azure_databricks" "this" {
       additional_properties,
       annotations,
       parameters,
-      integration_runtime_name
+      integration_runtime_name,
+      adb_domain,
+      key_vault_password
     ]
   }
 }
