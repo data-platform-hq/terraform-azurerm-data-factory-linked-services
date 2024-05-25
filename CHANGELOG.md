@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.3.0...v1.3.1) (2024-05-25)
+
+
+### Bug Fixes
+
+* ignore changes ([a2f8c26](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/commit/a2f8c264176bd2f49e8d72bc9a9563d244ad2836))
+
 # [1.3.0](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.2.0...v1.3.0) (2024-05-01)
 
 
