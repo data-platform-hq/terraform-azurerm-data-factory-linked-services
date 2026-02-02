@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.4.0...v1.5.0) (2026-02-02)
+
+
+### Features
+
+* upgrade provider to AzureRM v4.0 ([4defc84](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/commit/4defc84bca0bc8a583316698d43b8da10ca13c49))
+
 # [1.4.0](https://github.com/data-platform-hq/terraform-azurerm-data-factory-linked-services/compare/v1.3.1...v1.4.0) (2024-09-10)
 
 
